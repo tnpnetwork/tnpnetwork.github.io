@@ -15,7 +15,7 @@ body {
 .h3 {
   opacity: 1;
   color: white;
-  animation: fade2 2s;
+  animation: fade2 3s;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-shadow: 0 0 10px gray, 0 0 10px gray;
   font-size: 150%;
