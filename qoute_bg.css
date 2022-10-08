@@ -29,7 +29,7 @@ body {
   }
   to {
     opacity: 0;
-    animation: fade 1s linear 3s;
+    animation: fade 1s linear 1s;
   }
 }
 
