@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="quotes Generator | TNPCraft Network" />
+    <meta property="og:image" content="https://tnpnetwork.github.io/Images/icon.png" />
+    <meta property="og:description" content="Official TNPCraft Network website! It has all the information about TNPCraft and updates!"/>
+    <title>quotes Generator | TNPCraft Network</title>
+    <link rel="icon" href="https://tnpnetwork.github.io/Images/icon.png">
+    <link href="../quote_bg.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="stars"></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1 class="h1" id="quote">Placeholder</h1>
+    <br />
+    <h3 class="h3"><a class="sl2" href="quote-generator">GIVE ME ANOTHER QUOTE</a></h3>
+    <h3 class="h3"><a class="sl2" href="../creations/list">RETURN TO CREATIONS</a></h3>
+  </body>
+  <script>
+    const quote = document.getElementById("quote");
+    var quotes = ['"/summon child" - Skybarn 12/9/2021', '"inhale a car" - AlphaBearABC 4/11/2022', '"I lit a pikachu on fire" - RecognizableFred 7/4/2022', '"You have been promoted to costumor" - HRTMiner 7/25/2022', '"among us" - RecognizableFred 9/17/2022', '"breadpog" - MrRedStoneCharge ??/??/2020', `"I'M HIGH ON RAMEN" - AlphaBearABC ??/??/2019`, `"u have been e'd" - TheNetherPug ??/??/2020`, '"im like a child except I can ascend" - TheNetherPug 5/16/2022', '"your face looks like beans" - AlphaBearABC 2/13/2022', '"oh yeahh~" - Skybarn 1/20/2022'
+  ]
+    quote.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+  </script>
+</html>
