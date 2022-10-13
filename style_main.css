@@ -129,7 +129,7 @@ body {
   color: aqua;
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px darkcyan, 0 0 10px darkcyan;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
   padding: 10px 10px;
   border: none;
@@ -143,7 +143,7 @@ body {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 10px darkgray, 0 0 10px darkgray;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 150%;
   padding: 10px 10px;
   border: none;
